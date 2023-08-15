@@ -1,0 +1,261 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+    width: 100%;
+}
+
+/* nav starts */
+nav
+{
+    width: 100%;
+    background-color: #fff;
+    /* color: white; */
+    padding: 17px 124px;
+    box-shadow: 0px 2px 9px -2px grey;
+    /* position: fixed; */
+    
+}
+nav .logo
+{
+    text-decoration: none;
+    color: #24325d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 534px;
+   
+}
+nav ul li 
+{
+    display: inline;
+    
+    list-style: none;
+    font-family: 'Raleway', sans-serif; 
+    margin-left: 30px;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #24325d;
+    font-weight: 500;
+}
+nav ul li a:hover
+{
+    color: #008df1;
+    /* text-decoration: underline; */
+}
+
+/* nav ends */
+
+/* top bar starts */
+
+.main
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 900px;
+    /* margin-top: 0px; */
+}
+
+.main .event
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    background: #f5f7fb;
+}
+.main .event h2
+{
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+    margin-left: 112px;
+    margin-right: 1096px;
+}
+.main .event a
+{
+    text-decoration: none;
+    color: #006fbe;
+}
+S
+
+/* top bar ends */
+
+/* main bar starts */
+.images
+{
+    width: 100%;
+    height: 800px;
+    /* border: 2px solid red; */
+    box-shadow: -1px 3px 37px -17px grey;
+
+}
+.main ul
+{
+    /* border: 2px solid blue; */
+    /* display: inline; */
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+
+}
+.main ul li
+{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+    
+
+}
+.main ul li a
+{
+    text-decoration: none;
+    color:  #006fbe ;
+}
+.peace
+{
+    /* margin: 60px; */
+    width: 415px;
+    height: 560px;
+    /* border: 2px solid green; */
+    position: relative;
+    overflow: hidden;
+}
+.peace img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.images-flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+
+}
+.images .peace .home
+{
+    width: 89%;
+    height: 100%;
+    /* border: 2px solid green; */
+    text-align: center;
+    padding-top: 274px;
+    position: absolute;
+    bottom: 0px;
+    right: 21px;
+    color: #fff;
+    background-color:  #6710f2b8;
+    transition: all .3s;
+    opacity: 0;
+}
+.peace:hover .home
+{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.home h2
+{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+.home h2::before
+{
+    content: "";
+    border-top: #fff 2px solid;
+    display: block;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    top: 59px;
+    left: 19px;
+    border-left:#fff 2px solid ;
+}
+.home h2::after
+{
+    content: "";
+    border-bottom: #fff 2px solid;
+    display: block;
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    bottom: 59px;
+    left: 284px;
+    border-right:#fff 2px solid ;
+}
+
+/* main bar ends */
+
+/* bottom bar start  */
+
+.bottom-bar
+{
+    background-color: #24325d;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottom-bar h1
+{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    
+    padding-top: 48px;
+    margin-bottom: 28px;
+}
+.bottom-bar .bar-text
+{
+    font-style: italic;
+}
+.bottom-bar div 
+{
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    position: relative;
+    left: 323px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.bottom-bar div .faceb
+{
+    background-color: #008df1;
+    width: 36px;
+    height: 36px;
+    border-radius: 23px;
+    
+}
+.bottom-bar div .faceb i
+{
+    position: relative;
+    top: 9px;
+    left: 12px;
+}
+.bottom-bar p a
+{
+    text-decoration: none;
+    color: #008df1;
+}
+/* bottom bar end */

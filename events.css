@@ -1,0 +1,241 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+    width: 100%;
+}
+
+/* nav starts */
+nav
+{
+    width: 100%;
+    background-color: #fff;
+    /* color: white; */
+    padding: 17px 124px;
+    box-shadow: 0px 2px 9px -2px grey;
+    /* position: fixed; */
+    
+}
+nav .logo
+{
+    text-decoration: none;
+    color: #24325d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 544px;
+   
+}
+nav ul li 
+{
+    display: inline;
+    
+    list-style: none;
+    font-family: 'Raleway', sans-serif; 
+    margin-left: 30px;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #24325d;
+    font-weight: 500;
+}
+nav ul li a:hover
+{
+    color: #008df1;
+    /* text-decoration: underline; */
+}
+
+/* nav ends */
+ /* event sarts  */
+.main
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 900px;
+    margin-top: 0px;
+}
+
+.main .event
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    background: #f5f7fb;
+}
+.main .event h2
+{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    margin-left: 112px;
+    margin-right: 1096px;
+}
+.main .event a
+{
+    text-decoration: none;
+    color: #006fbe;
+}
+
+.main .birthday
+{
+    width: 100%; 
+    /* border: 2px solid yellow; */
+    height: 90%;
+    display: flex;
+    /* justify-content: space-between; */
+    box-shadow: -1px 3px 37px -17px grey;
+    gap: 30px;
+    padding-top: 114px;
+    padding-left: 132px;
+
+}
+.main .birthday .zoro
+{
+    width: 630px; 
+    /* border: 2px solid brown; */
+    height: 400px;
+    /* margin-top: 100px;
+    margin-left: 130px; */
+    position: relative;
+
+
+}
+.main .birthday .lara
+{
+    width: 100%; 
+    /* border: 2px solid green; */
+    height: 400px;
+    overflow: hidden;
+
+}
+.main .birthday .lara img
+{
+    width: 95%;
+    height: 100%;
+    transition: all .3s;
+}
+
+.main .birthday .lara:hover img
+{
+   transform: scale(1.15);
+}
+
+.main .birthday .zoro .info
+{
+    width: 542px;
+    height: 217px;
+    box-shadow: -1px 5px 22px -5px grey;
+    position: absolute;
+    bottom: -134px;
+    left: 60px;
+    background-color: #fff;
+    /* z-index: ;
+    border-top: 3px solid blue; */
+    
+    
+    /* transition: all .5s; */
+
+}
+.zoro:hover .info
+{
+    border-top: 3px solid blue;
+
+}
+
+.main .birthday .zoro .info h3
+{
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    color: #24325d;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.main .birthday .zoro .info .info-para
+{
+    color: #212529;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main .birthday .zoro .info .info-para1
+{
+    color: #5e5e5e;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* event ends */
+
+
+
+/* bottom bar start  */
+
+.bottom-bar
+{
+    background-color: #24325d;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+}
+
+.bottom-bar h1
+{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    
+    padding-top: 48px;
+    margin-bottom: 28px;
+}
+.bottom-bar .bar-text
+{
+    font-style: italic;
+}
+.bottom-bar div 
+{
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    position: relative;
+    left: 323px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.bottom-bar div .faceb
+{
+    background-color: #008df1;
+    width: 36px;
+    height: 36px;
+    border-radius: 23px;
+    
+}
+.bottom-bar div .faceb i
+{
+    position: relative;
+    top: 9px;
+    left: 12px;
+}
+.bottom-bar p a
+{
+    text-decoration: none;
+    color: #008df1;
+}
+/* bottom bar end */

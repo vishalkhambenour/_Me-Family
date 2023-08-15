@@ -1,0 +1,363 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+    width: 100%;
+}
+
+/* nav starts */
+nav
+{
+    width: 100%;
+    background-color: #fff;
+    /* color: white; */
+    padding: 17px 124px;
+    box-shadow: 0px 2px 9px -2px grey;
+    position: fixed;
+    /* top: 0px; */
+    z-index: 2;
+    
+}
+nav .logo
+{
+    text-decoration: none;
+    color: #24325d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 537px;
+   
+}
+nav ul li 
+{
+    display: inline;
+    
+    list-style: none;
+    font-family: 'Raleway', sans-serif; 
+    margin-left: 30px;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #24325d;
+    font-weight: 500;
+}
+nav ul li a:hover
+{
+    color: #008df1;
+    /* text-decoration: underline; */
+}
+
+/* nav ends */
+
+/* top bar starts */
+
+.main
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 900px;
+    /* margin-top: 80px; */
+}
+
+.main .event
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    background: #f5f7fb;
+}
+.main .event h2
+{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    margin-left: 112px;
+    margin-right: 1096px;
+}
+.main .event a
+{
+    text-decoration: none;
+    color: #006fbe;
+}
+/* top bar ends */
+
+/* main bar starts */
+.contact-main
+{
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid red; */
+    padding: 57px 127px;
+}
+
+.contact-main .map
+{
+    /* border: 2px solid #006fbe; */
+    width: 100%;
+    height: 238px;
+}
+.contact-main .map iframe
+{
+    width: 100%;
+    height: 100%;
+}
+.contact-main .sec
+{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 400px;
+}
+
+/* jjjg */
+
+.b1
+{
+    /* border: 2px solid red; */
+    height: 70px;
+    padding-top: 10px;
+    text-align: center;
+}
+.b1 p
+{
+    color:  rgba(0, 0, 0, 0.482);
+}
+
+.contact-sub
+{
+    /* border: 2px solid blue; */
+    margin-top: 50px;
+    height: 327px;
+    display: flex;
+    gap: 27px;
+    /* padding-left: 105px; */
+}
+
+.location
+{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 400px;
+    padding: 2px 61px;
+    background-color: #fff;
+   
+}
+
+
+.details
+{
+    /* border: 2px solid rgb(235, 34, 198); */
+    height: 100%;
+    width: 838px;  
+    background-color: #fff;
+    padding: 15px;
+   
+}
+.h41
+{
+    margin-bottom: 0px;
+}
+.h41 h4
+{
+    color: #24325d;
+    font-size: 22px;
+    font-weight: 600;
+}
+.h41 div
+{
+    width: 40px;
+    height: 40px;
+    background-color: #5dabe3;
+    position: relative;
+    left: -48px;
+    bottom: -42px;
+    border-radius: 20px;
+}
+.h41 div i
+{
+    position: relative;
+    top: 8px;
+    left: 14px;
+    font-size: 20px;
+    z-index: 1;
+}
+/* 2 */
+.h42 h4
+{
+    color: #24325d;
+    font-size: 22px;
+    font-weight: 600;
+}
+.h42 div
+{
+    width: 40px;
+    height: 40px;
+    background-color: #5dabe3;
+    position: relative;
+    left: -48px;
+    bottom: -42px;
+    border-radius: 20px;
+}
+.h42 div i
+{
+    position: relative;
+    top: 10px;
+    left: 11px;
+    font-size: 20px;
+}
+/* 3 */
+.h43 h4
+{
+    color: #24325d;
+    font-size: 22px;
+    font-weight: 600;
+}
+.h43 div
+{
+    width: 40px;
+    height: 40px;
+    background-color: #5dabe3;
+    position: relative;
+    left: -48px;
+    bottom: -42px;
+    border-radius: 20px;
+}
+.h43 div i
+{
+    position: relative;
+    top: 7px;
+    left: 14px;
+    font-size: 25px;
+}
+/* 3 end */
+
+.details a
+{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 144px;
+    padding: 11px;
+    border-radius: 5px;
+    margin: 11px auto;
+    /* padding-left: 10px; */
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.i1
+{
+    width: 370px;
+    padding: 10px;
+    /* border-sh */
+
+}
+.i2
+{
+    width: 408px;
+    padding:10px;
+    margin-left:22px;
+
+}
+
+.i3
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+textarea
+{
+    width: 100%;
+    height: 160px;
+    padding: 10px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.585);
+
+}
+
+.location p
+{
+    font-size: 12px;
+    color: rgba(29, 31, 31, 0.659);
+    margin-top: 5px;
+}
+
+
+/* jjjjg */
+
+
+
+/* main bar ends */
+
+/* bottom bar start  */
+
+.bottom-bar
+{
+    background-color: #24325d;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.bottom-bar h1
+{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    
+    padding-top: 48px;
+    margin-bottom: 28px;
+}
+.bottom-bar .bar-text
+{
+    font-style: italic;
+}
+.bottom-bar div 
+{
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    position: relative;
+    left: 323px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.bottom-bar div .faceb
+{
+    background-color: #008df1;
+    width: 36px;
+    height: 36px;
+    border-radius: 23px;
+    
+}
+.bottom-bar div .faceb i
+{
+    position: relative;
+    top: 9px;
+    left: 12px;
+}
+.bottom-bar p a
+{
+    text-decoration: none;
+    color: #008df1;
+}
+/* bottom bar end */

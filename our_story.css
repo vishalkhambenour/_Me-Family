@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body 
+{
+    width: 100%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+
+/* nav starts */
+nav
+{
+    width: 100%;
+    background-color: #fff;
+    /* color: white; */
+    padding: 17px 124px;
+    box-shadow: 0px 2px 9px -2px grey;
+    /* position: fixed; */
+    
+}
+nav .logo
+{
+    text-decoration: none;
+    color: #24325d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav ul
+{
+    display: inline;
+    margin-left: 544px;
+   
+}
+nav ul li 
+{
+    display: inline;
+    
+    list-style: none;
+    font-family: 'Raleway', sans-serif; 
+    margin-left: 30px;
+    
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #24325d;
+    font-weight: 500;
+}
+nav ul li a:hover
+{
+    color: #008df1;
+    /* text-decoration: underline; */
+}
+
+/* nav ends */
+
+/* <!-- nav-2 starts --> */
+
+.main
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 60px;
+    /* margin-top: px; */
+}
+
+.main .event
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    background: #f5f7fb;
+}
+.main .event h2
+{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    margin-left: 112px;
+    margin-right: 1096px;
+}
+.main .event a
+{
+    text-decoration: none;
+    color: #006fbe;
+}
+
+/* <!-- nav-2 ends --> */
+
+/* <!-- container-one starts --> */
+
+.container-one
+{
+    display: flex;
+    width: 86%;
+    /* border: solid red 2px; */
+    height: 470px;
+    margin: 60px auto;
+}
+
+.div-1
+{
+    width: 50%;
+    /* border: solid green 2px; */
+    margin-right: 25px; 
+}
+
+.div-1 h2
+{
+    font-size: 26px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    
+}
+
+.div-1 .para-1
+{
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+    line-height: 23px;
+    
+}
+
+.div-1 ul 
+{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.div-1 ul li 
+{
+    padding-bottom: 15px;
+    color: #444444;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.div-1 .para-2
+{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    line-height: 23px;
+}
+
+.image-div-1
+{
+    width: 50%;
+    /* border: solid blue 2px; */
+    
+}
+
+.image-div-1 img
+{
+    width: 100%;
+    height: 100%;
+}
+/* <!-- container-one ends --> */
+
+
+/* <!-- container-two starts --> */
+
+.container-two
+{
+    display: flex;
+    width: 86%;
+    /* border: solid red 2px; */
+    height: 425px;
+    margin: 110px auto   ;
+}
+
+.container-two .image-div-1
+{
+    width: 51%;
+    /* border: solid blue 2px; */
+    
+}
+
+.container-two .image-div-1 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.container-two .div-1
+{
+    width: 50%;
+    /* border: solid green 2px; */
+    margin-right: 25px;
+    margin-left: 33px;
+}
+
+.container-two .div-1 h2
+{
+    font-size: 26px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    
+}
+
+.container-two .div-1 .para-1
+{
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+    line-height: 23px;
+    
+}
+
+.container-two.div-1 ul 
+{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.container-two .div-1 ul li 
+{
+    padding-bottom: 15px;
+    color: #444444;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+
+.container-two .div-1 ul li i
+{
+    color: #006fbe;
+}
+
+/* .container-two ends */
+
+/* <!-- container-three starts --> */
+.image-div-2
+{
+    width: 50%;
+    height: 92%;
+}
+
+.image-div-2 img
+{
+    width: 100%;
+    height: 100%;
+}
+/* <!-- container-three ends --> */
+
+/* <!-- container-four starts --> */
+/* <!-- container-four ends --> */
+
+/* <!-- container-five starts --> */
+/* <!-- container-five ends --> */
+
+/* profile-container starts */
+
+.profile-main
+{
+    display: flex;
+    justify-content: space-between; 
+    width: 86%;
+    margin:auto;
+    padding-top: 15px;
+}
+
+.profile-container
+{
+    width: 420px;
+    height: 650px;
+    /* margin: auto; */
+    /* border: red solid 2px;  */
+}
+
+.profile-image
+{ 
+    height: 425px;
+    position: relative;
+    overflow: hidden;     
+}
+
+.profile-image img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.profile-container .social
+{
+    background-color: #006fbebf;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    transition: all 0.5s ;
+}
+
+.profile-image:hover .social
+{
+    height: 45px;
+}
+
+.icon-all
+{
+    margin-left: 138px;
+}
+
+.social a i
+{
+    color: white;
+    padding-right: 22px;
+    padding-top: 12px;
+    font-size: 20px;
+    transition: 0.5s 0.2s;
+}
+
+.social a i:hover
+{
+    color: #2b3c6f;
+}
+
+.profile-content h4
+{
+    margin-top: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444;
+}
+
+.profile-content .para-one
+{
+    color: #006fbe;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+.profile-content .para-two
+{
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+
+/* <!-- profile-container-ends --> */
+
+/* bottom bar start  */
+
+.bottom-bar
+{
+    background-color: #24325d;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.bottom-bar h1
+{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    
+    padding-top: 48px;
+    margin-bottom: 28px;
+}
+.bottom-bar .bar-text
+{
+    font-style: italic;
+}
+.bottom-bar div 
+{
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    position: relative;
+    left: 323px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.bottom-bar div .faceb
+{
+    background-color: #008df1;
+    width: 36px;
+    height: 36px;
+    border-radius: 23px;
+    
+}
+.bottom-bar div .faceb i
+{
+    position: relative;
+    top: 9px;
+    left: 12px;
+}
+.bottom-bar p a
+{
+    text-decoration: none;
+    color: #008df1;
+}
+/* bottom bar end */
+
